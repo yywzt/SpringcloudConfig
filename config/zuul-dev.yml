@@ -1,5 +1,5 @@
 test:
-  username: aaa
-  password: 123
+  username: aaa-dev
+  password: 123-dev
 
-foo: foo
+foo: foo-dev
