@@ -2,4 +2,4 @@ test:
   username: aaa
   password: 123
 
-foo: foo-aaa
+foo: dev-foo-aaa
