@@ -5,12 +5,14 @@ spring:
     username: guest
     password: guest
     virtual-host: /
-
   cloud:
     bus:
       enabled: true
       trace:
         enabled: true
+
+server:
+  port: 8090
 
 management:
   endpoints:
