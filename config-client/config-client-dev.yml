@@ -19,7 +19,7 @@ management:
         include: health,info,bus-refresh
 
 test:
-  username: aaa-dev
-  password: 123-dev
+  username: aaa-dev-modify
+  password: 123-dev-modify
 
-foo: foo-aaa-dev
+foo: foo-aaa-dev-modify
