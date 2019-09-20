@@ -21,7 +21,7 @@ management:
         include: health,info,bus-refresh
 
 test:
-  username: aaa-dev-client-client
-  password: 123-dev-modify
+  username: aaa-test
+  password: 123-test
 
-foo: foo-aaa-dev-modify
+foo: foo-aaa-test
