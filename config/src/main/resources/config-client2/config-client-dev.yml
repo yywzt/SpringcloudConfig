@@ -21,7 +21,7 @@ management:
         include: health,info,bus-refresh
 
 test:
-  username: aaa-dev-client2-client
-  password: 123-dev-modify
+  username: config-client2/aaa-dev-client2-client
+  password: config-client2/123-dev-modify
 
-foo: foo-aaa-dev-modify
+foo: config-client2/foo-aaa-dev-modify

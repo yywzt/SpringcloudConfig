@@ -21,7 +21,7 @@ management:
         include: health,info,bus-refresh
 
 test:
-  username: aaa-test
-  password: 123-test
+  username: zuul/aaa-test
+  password: zuul/123-test
 
-foo: foo-aaa-test
+foo: zuul/foo-aaa-test
