@@ -1,0 +1,27 @@
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: /
+  cloud:
+    bus:
+      enabled: true
+      trace:
+        enabled: true
+
+server:
+  port: 8090
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,bus-refresh
+
+test:
+  username: aaa-dev-client1-client
+  password: 123-dev-modify
+
+foo: foo-aaa-dev-modify
